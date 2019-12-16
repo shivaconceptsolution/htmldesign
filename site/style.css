@@ -1,0 +1,92 @@
+*
+{
+	margin:0px;
+}
+
+header
+{
+   height: 100px;
+   background-color:orange; 
+}
+section
+{
+height: 500px;
+   background-color:gray; 
+}
+#logo{
+    width: 30%;
+    float: left;
+    height: 80%;
+    margin-top: 1px;
+    margin-left: 20px;
+    border:1px solid red;
+}
+#logo img
+{
+	margin-top:-8px;
+	
+	width: 110px;
+	height: 110px;
+}
+#menu
+{
+ width: 60%;
+    float: left;
+    height: 80%;
+    margin-top: 5px;
+    margin-left: 20px;
+    border:1px solid red;
+}
+#menu ul li
+{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 20px;
+	background-color: black;
+	color:white;
+	width: 120px;
+	height: 30px;
+	border-radius: 5px;
+	text-align: center;
+}
+#menu ul li a
+{
+	text-decoration:none; 
+	color:white;
+}
+.partsection
+{
+    width: 15%;
+    float: left;
+    height: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border:1px solid red;
+}
+.partfooter
+{
+    width: 30%;
+    float: left;
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border:1px solid red;
+}
+.partfooter ul li
+{
+
+	list-style-type: none;
+	font-size: 20px;
+	padding: 7px;
+	background-color: black;
+	margin-top: 5px;
+	width: 250px;
+	text-align: center;
+	color:white;
+	border-radius: 10px;
+}
+footer
+{
+height: 250px;
+   background-color:orange; 
+}
