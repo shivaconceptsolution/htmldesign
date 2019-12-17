@@ -1,0 +1,39 @@
+*{
+	margin:0px; 	
+}
+header
+{
+    height:100px;
+    background-color:blue;  	
+}
+header ul li
+{
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	padding-top: 10px;
+	background-color: black;
+	text-align: center;
+	margin-left:10px;
+	margin-top:20px; 
+	border-radius: 10px;
+	box-shadow: 2px 2px #fff;
+}
+header ul li a
+{
+	color:white;
+	text-decoration: none;
+}
+section{
+height:500px;
+    background-color:black;  
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-size: 100% 100%;
+    color:white;
+}
+footer{
+height:200px;
+    background-color:blue;  
+}
