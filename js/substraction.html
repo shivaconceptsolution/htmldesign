@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function addition()
+		{
+          num1 = document.getElementById("txtnum1").value; 
+          num2 = document.getElementById("txtnum2").value;
+          num3 = parseInt(num1)+parseInt(num2);
+          alert(num3);
+		}
+        function sub()
+		{
+          num1 = document.getElementById("txtnum1").value; 
+          num2 = document.getElementById("txtnum2").value;
+          num3 = parseInt(num1)-parseInt(num2);
+          alert(num3);
+		}
+		function multi()
+		{
+          num1 = document.getElementById("txtnum1").value; 
+          num2 = document.getElementById("txtnum2").value;
+          num3 = parseInt(num1)*parseInt(num2);
+          alert(num3);
+		}
+		function div()
+		{
+          num1 = document.getElementById("txtnum1").value; 
+          num2 = document.getElementById("txtnum2").value;
+          num3 = parseInt(num1)/parseInt(num2);
+          alert(num3);
+		} 
+	</script>
+</head>
+<body>
+<input type="text" id="txtnum1" placeholder="Enter First Number" />
+<br>
+<br>
+<input type="text" id="txtnum2" placeholder="Enter Second Number" />
+<br>
+<br>
+<input type="button" value="+" onclick="addition()" />
+<input type="button" value="-" onclick="sub()" />
+<input type="button" value="*" onclick="multi()" />
+<input type="button" value="/" onclick="div()" />
+</body>
+</html>
